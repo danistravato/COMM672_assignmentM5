@@ -1,0 +1,184 @@
+body {
+    background: #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 20px;
+}
+
+a {
+    color: #b3679b;
+}
+
+header {
+    height: 110px;
+}
+
+header .container {
+    padding-left: 80px;
+}
+
+.logo {
+    width: 250px;
+    float: left;
+}
+
+nav {
+    float: right;
+    margin-top: 40px;
+}
+
+header nav {
+    float: right;
+    margin-right: 80px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #e6a563;
+}
+
+.clear {
+    clear: both;
+}
+
+.hero {
+    background: #FFCF83;
+    height: 320px;
+}
+
+.hero .container {
+    position: relative;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.hero h1 {
+    margin-top: 20px
+}
+
+.hero p {
+    max-width: 500px;
+}
+
+.hero img {
+    position: absolute;
+    right: 180px;
+    top: 40px;
+    max-width: 280px;
+    height: auto;
+}
+
+.button {
+    display: inline-block;
+    background: #222e50;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.feature-block {
+    width: 315px;
+    padding: 20px;
+    margin: 20px;
+    display:inline-block;
+    text-align: center;
+    vertical-align: top;
+    background: #fff;
+}
+
+.features {
+    text-align: center;
+}
+
+.testimonials {
+    background: #222e50;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.testimonials h2 {
+    color: #fff;
+}
+
+.testimonial-block {
+    width: 315px;
+    padding: 20px;
+    margin: 20px;
+    display:inline-block;
+    text-align: center;
+    vertical-align: top;
+    background: #fff;
+    color: #000;
+}
+
+.team {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.team-block {
+    width: 210px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 20px;
+}
+
+footer {
+    background: #D9D9D9;
+    padding: 30px 0;
+    text-align: center;
+}
+
+footer .social {
+    margin-top: 15px;
+}
+
+footer .social img {
+    margin-right: 10px;
+    width: 35px;
+}
